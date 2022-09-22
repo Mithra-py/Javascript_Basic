@@ -81,5 +81,5 @@ const maaşlar = [3000, 5000, 4000, 6000, 6500];
 //                      REDUCE METHOD
 
 
-const toplamMaaş = maaşlar.reduce((t, m) => t + m, 0)
-console.log("Toplam Maaş", toplamMaaş)
+const toplamMaaş = maaşlar.reduce((t, m) => t + m, 0);
+console.log("Toplam Maaş", toplamMaaş);
