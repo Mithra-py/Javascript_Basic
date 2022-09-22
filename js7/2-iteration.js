@@ -74,3 +74,12 @@ isimler
 .filter((x) => x === "ahmet")
 .map((x) => x.toLocaleUpperCase())
 .forEach((x) => console.log(x));
+
+
+const maaşlar = [3000, 5000, 4000, 6000, 6500];
+
+//                      REDUCE METHOD
+
+
+const toplamMaaş = maaşlar.reduce((t, m) => t + m, 0)
+console.log("Toplam Maaş", toplamMaaş)
